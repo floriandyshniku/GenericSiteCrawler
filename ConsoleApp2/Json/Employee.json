@@ -1,0 +1,44 @@
+{
+  "employee": {
+    "developer": [
+      {
+        "webDeveloper": [
+          {
+            "name": "Alfred",
+            "lastName": "Korra"
+          },
+          {
+            "name": "Con",
+            "lastName": "Coni"
+          }
+
+        ]
+      },
+      {
+        "backend": [
+          {
+            "name": "Alfred",
+            "lastName": "Korra"
+          },
+          {
+            "name": "Flori",
+            "lastName": "Dyshniku",
+            "certifikate": [
+              {
+                "title": "OCA"
+              },
+              {
+                "title": "OCE"
+              }
+            ] 
+          }
+
+        ]
+      }
+    ],
+    "hr": {
+      "name": "HrName",
+      "company": "Dela-tech"
+    }
+  }
+}
