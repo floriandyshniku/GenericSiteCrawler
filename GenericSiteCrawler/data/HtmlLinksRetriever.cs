@@ -39,9 +39,12 @@ namespace GenericSiteCrawler.data
                             return Uri.TryCreate(href, UriKind.Absolute, out hrefUri) && !searchedLinks.Contains(href);
                         }).ToHashSet();
                         searchedLinks.UnionWith(links);
-                        
+                        return links;
                     }
-                    return links;
+                    else{
+                        return null;
+                    }
+                    
                 }
             }
             catch (Exception e)
